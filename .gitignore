@@ -1,1 +1,4 @@
-consigne/
+consigne/*
+data/raw/*
+data/intermediate/*
+data/processed/*
