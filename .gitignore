@@ -2,3 +2,5 @@ consigne/*
 data/raw/*
 data/intermediate/*
 data/processed/*
+data/models/*
+data/maps/*
