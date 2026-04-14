@@ -5,7 +5,7 @@ from torch.utils.data import Dataset
 
 LATENT_DIM = 32
 COND_DIM   = 2
-#
+
 
 class SWIMapDataset(Dataset):
     def __init__(self, maps, months):
