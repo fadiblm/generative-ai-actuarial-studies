@@ -1,3 +1,4 @@
+.claude/
 consigne/*
 data/raw/*
 data/intermediate/*
@@ -5,3 +6,4 @@ data/processed/*
 data/models/*
 data/maps/*
 training_notebook/models/*
+gene
