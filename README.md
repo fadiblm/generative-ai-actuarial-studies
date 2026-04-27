@@ -1,3 +1,23 @@
+## Installation des dépendances
+
+Ce projet utilise [`uv`](https://github.com/astral-sh/uv), un gestionnaire de paquets Python moderne qui remplace `pip` et `venv`. Il suffit de deux étapes pour récupérer l'environnement complet.
+
+**Étape 1 — Installer `uv` :**
+
+```bash
+pip install uv
+```
+
+**Étape 2 — Installer toutes les dépendances du projet :**
+
+```bash
+uv sync
+```
+
+Cette commande crée automatiquement un environnement virtuel dans le dossier `.venv/` et installe toutes les bibliothèques nécessaires telles qu'elles ont été fixées par les développeurs du projet.
+
+---
+
 ## Contexte du projet
 
 Dans le cadre de notre enseignement en actuariat à l'ENSAE Paris, nous réalisons un projet dans le cours *"Generative AI for Insurance and Actuarial Studies"*.
